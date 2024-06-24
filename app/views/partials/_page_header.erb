@@ -1,0 +1,22 @@
+  <header>
+    <nav class="navbar fixed-top bg-body-tertiary">
+      <div class="container-fluid">
+        <div>
+          <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+            <img class="img-fluid"  <%= image_tag("undraw_aircraft_re_m05i.svg", size: "50x50")%>
+            <svg xmlns="http://www.w3.org/2000/svg" width="0" height="32" class="me-2" viewBox="0 0 118 94" role="img">
+              <title>Airport Changer Project</title>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="" fill="currentColor"></path>
+            </svg>
+            <span class="fs-5">Airport Changer Project</span>
+          </a>
+        </div>
+        <nav class="ms-auto">
+            <a class="me-3 py-2 link-body-emphasis text-decoration-none" <%=link_to 'About Me', about_path %>
+          </a>
+        </nav>
+        <%= render partial:'partials/theme_button'%>
+      </div>
+    </nav>
+  </header>
+<div class="header"> </div>
