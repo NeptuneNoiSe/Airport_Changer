@@ -1,9 +1,12 @@
-<div class="bubble-header p-3 pb-md-4 mx-auto text-center">
+<div class="p-3 pb-md-4 mx-auto text-center">
   <container>
     <p class="fs-1">Airport Changer</p>
     <img class="img-fluid" <%=image_tag("undraw_aircraft_re_m05i.svg", size: "440x200")%>
-      <p class="fs-4 fst-italic text-body-secondary p-3 pb-md-4 mx-auto text-center">
+      <p class="fs-4 fst-italic text-body-secondary p-3 pb-md-4 mx-auto text-center" style="margin-top: 15px">
         Летите куда угодно, если захотите!
       </p>
+    <div>
+      <%=link_to 'Полетели!', flying_path, :class => "btn w-25 btn-lg btn-primary" %>
+    </div>
   </container>
 </div>

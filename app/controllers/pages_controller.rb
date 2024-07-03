@@ -34,4 +34,8 @@ class PagesController < ApplicationController
   def see_also
     render layout: 'see_also'
   end
+
+  def flying
+    render layout: 'flying'
+  end
 end
