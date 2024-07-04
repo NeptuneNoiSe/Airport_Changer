@@ -6,6 +6,7 @@ ruby "3.3.3"
 gem 'jquery-rails'
 
 gem 'bootstrap-sass'
+gem 'bootstrap_sidebar_rails'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", '~> 7.1.3', ">= 7.1.3.4"
@@ -47,7 +48,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

@@ -1,5 +1,7 @@
 //= link_tree ../images
 //= link color-modes.js
+//= link sidebars.js
+//= require sidebar
 //= link jquery_ujs.js
 //= link jquery.js
 //= link application.js
