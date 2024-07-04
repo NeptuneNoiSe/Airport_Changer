@@ -45,6 +45,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, Remote-rvm: ruby-3.3.3 (-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.18.3, Remote-rvm: ruby-3.3.3 (-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.4.1, Remote-rvm: ruby-3.3.3 (-p89) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap_sidebar_rails (v0.0.1, Remote-rvm: ruby-3.3.3 (-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, Remote-rvm: ruby-3.3.3 (-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.11, Remote-rvm: ruby-3.3.3 (-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v3.40.0, Remote-rvm: ruby-3.3.3 (-p89) [gem]" level="application" />
